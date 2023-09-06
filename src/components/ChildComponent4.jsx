@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ChildComponent4 = (props) => {
+const ChildComponent4 = ({confirmFunct}) => {
   return (
     <div>
-      {props.confirmFunct()}
+      {confirmFunct()}
     </div>
   )
 }

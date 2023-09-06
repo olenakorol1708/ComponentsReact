@@ -1,10 +1,10 @@
 import React from 'react'
 
-const ChildComponent1 = (props) => {
+const ChildComponent1 = ({message, isEnable}) => {
   return (
     <div>
-      <p>{props.message}</p>
-      <p> Can I learn React: {props.isEnable ? "Yes":"No"}</p>
+      <p>{message}</p>
+      <p> Can I learn React: {isEnable ? "Yes":"No"}</p>
       
     </div>
   )
